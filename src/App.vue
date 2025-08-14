@@ -43,7 +43,7 @@ const projects = [
         View My Work
       </a>
       <a :href="resumeUrl"
-      target="_blank"
+      download="Shravanthi_Vadrevu_Resume.pdf"
       class="bg-yellow-400 text-teal-900 font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition duration-300 shadow-md">
       Download Resume
     </a>
