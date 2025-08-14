@@ -4,6 +4,8 @@ const skills = [
   'SQL', 'Docker', 'AWS', 'Git', 'CI/CD', 'Tailwind CSS', 'HTML5', 'CSS3', 'Figma'
 ];
 
+const resumeUrl = `${import.meta.env.BASE_URL}Senior%20Full%20Stack%20Engineer.pdf`
+
 const projects = [
   {
     title: "Portfolio Website",
@@ -21,7 +23,7 @@ const projects = [
     title: "Weather App",
     description: "Weather App to fetch and display current weather data using OpenWeatherMap API.",
     image: "Project3.png",
-    github: "https://github.com/shravanthivr/SearchComponent",
+    github: "https://github.com/shravanthivr/weatherapp-react",
   }
 ];
 </script>
@@ -40,10 +42,11 @@ const projects = [
         class="bg-white text-teal-700 font-bold py-3 px-6 rounded-lg hover:bg-gray-200 transition duration-300 shadow-md">
         View My Work
       </a>
-      <a href="/Senior Full Stack Engineer.pdf" target="_blank"
-        class="bg-yellow-400 text-teal-900 font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition duration-300 shadow-md">
-        Download Resume
-      </a>
+      <a :href="resumeUrl"
+      target="_blank"
+      class="bg-yellow-400 text-teal-900 font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition duration-300 shadow-md">
+      Download Resume
+    </a>
     </div>
   </section>
 
