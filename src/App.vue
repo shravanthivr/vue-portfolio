@@ -8,10 +8,10 @@ const resumeUrl = `${import.meta.env.BASE_URL}Senior%20Full%20Stack%20Engineer.p
 
 const projects = [
   {
-    title: "Portfolio Website",
-    description: "A responsive portfolio built with Vue.js, Tailwind CSS, and deployed on GitHub Pages.",
-    image: "portfolio.png",
-    github: "https://github.com/shravanthivr/vue-portfolio",
+    title: "PromptCraft App",
+    description: "A sleek React-based app that helps users generate titles, summaries, rephrases, and more using the ChatGPT API.",
+    image: "PromptCraft.png",
+    github: "https://github.com/shravanthivr/PromptCraft",
   },
   {
     title: "Search Component",
@@ -84,7 +84,7 @@ const projects = [
         :key="index" 
         class="bg-white rounded-xl shadow-[-7px_15px_7px_-5px_rgba(0,_0,_0,_0.7)] overflow-hidden hover:shadow-2xl transition duration-300"
       >
-        <img :src="project.image" :alt="project.title" class="w-full h-48">
+        <img :src="project.image" :alt="project.title" class="w-full h-48 mt-2 object-contain">
         
         <div class="p-6">
           <h3 class="text-xl font-semibold mb-2">{{ project.title }}</h3>
@@ -104,12 +104,12 @@ const projects = [
     </div>
   </section>
 
-  <section id="newsletter" class="py-20 bg-gray-50">
+  <!--<section id="newsletter" class="py-20 bg-gray-50">
     <h2 class="text-4xl font-bold text-center mb-12">Subscribe to my Newsletter</h2>
     <div class="flex justify-center">
       <iframe src="https://shravanthivr.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
     </div>
-  </section>
+  </section>-->
 
   <footer class="text-center py-6 text-gray-500">
     <p>&copy; {{ new Date().getFullYear() }} Shravanthi. All rights reserved.</p>
