@@ -82,9 +82,9 @@ const projects = [
       <div 
         v-for="(project, index) in projects" 
         :key="index" 
-        class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300"
+        class="bg-white rounded-xl shadow-[-7px_15px_7px_-5px_rgba(0,_0,_0,_0.7)] overflow-hidden hover:shadow-2xl transition duration-300"
       >
-        <img :src="project.image" :alt="project.title" class="w-full h-48 object-cover">
+        <img :src="project.image" :alt="project.title" class="w-full h-48">
         
         <div class="p-6">
           <h3 class="text-xl font-semibold mb-2">{{ project.title }}</h3>
@@ -101,6 +101,13 @@ const projects = [
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section id="newsletter" class="py-20 bg-gray-50">
+    <h2 class="text-4xl font-bold text-center mb-12">Subscribe to my Newsletter</h2>
+    <div class="flex justify-center">
+      <iframe src="https://shravanthivr.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
     </div>
   </section>
 
