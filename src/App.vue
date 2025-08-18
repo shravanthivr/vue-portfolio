@@ -4,7 +4,7 @@ const skills = [
   'SQL', 'Docker', 'AWS', 'Git', 'CI/CD', 'Tailwind CSS', 'HTML5', 'CSS3', 'Figma'
 ];
 
-const resumeUrl = `${import.meta.env.BASE_URL}Senior%20Full%20Stack%20Engineer.pdf`
+const resumeUrl = `${import.meta.env.BASE_URL}Lead%20Full%20Software%20Engineer.pdf`
 
 const projects = [
   {
@@ -104,12 +104,12 @@ const projects = [
     </div>
   </section>
 
-  <!--<section id="newsletter" class="py-20 bg-gray-50">
+  <section id="newsletter" class="py-20 bg-gray-50">
     <h2 class="text-4xl font-bold text-center mb-12">Subscribe to my Newsletter</h2>
     <div class="flex justify-center">
       <iframe src="https://shravanthivr.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
     </div>
-  </section>-->
+  </section>
 
   <footer class="text-center py-6 text-gray-500">
     <p>&copy; {{ new Date().getFullYear() }} Shravanthi. All rights reserved.</p>
