@@ -4,7 +4,7 @@ const skills = [
   'SQL', 'Docker', 'AWS', 'Git', 'CI/CD', 'Tailwind CSS', 'HTML5', 'CSS3', 'Figma'
 ];
 
-const resumeUrl = `${import.meta.env.BASE_URL}Lead%20Full%20Software%20Engineer.pdf`
+const resumeUrl = `${import.meta.env.BASE_URL}Lead%20Software%20Engineer.pdf`
 
 const projects = [
   {
